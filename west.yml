@@ -1,0 +1,9 @@
+manifest:
+  projects:
+    - name: nrf
+      url: https://github.com/nrfconnect/sdk-nrf
+      revision: 0cfb7da7e744c9591af68eb786e5852c327f2d22
+      import: true
+
+  self:
+    import: overrides
